@@ -377,6 +377,8 @@ export function OnboardingModal({ open, onOpenChange }: { open: boolean, onOpenC
                         onChange={handleImageChange}
                         className="hidden"
                         disabled={isUploading}
+                        title="Upload profile picture"
+                        placeholder="Upload profile picture"
                       />
                     </div>
                   </div>

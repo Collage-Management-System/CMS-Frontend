@@ -109,7 +109,11 @@ function NotificationsCenter() {
                                         {formatDate(notification.date)}
                                     </p>
                                 </div>
-                                <button className="text-gray-500 hover:text-white p-1 transition-colors">
+                                <button
+                                    className="text-gray-500 hover:text-white p-1 transition-colors"
+                                    title="Dismiss notification"
+                                    aria-label="Dismiss notification"
+                                >
                                     <IoIosClose className="h-5 w-5" />
                                 </button>
                             </div>
